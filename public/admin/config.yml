@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-username/maria-chernobai-portfoli
+  repo: your-username/maria-chernobai-portfolio
   branch: main
   base_url: https://netlify-cms-oauth-provider-iota.vercel.app
   auth_endpoint: /auth
