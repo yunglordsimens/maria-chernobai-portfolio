@@ -1,0 +1,103 @@
+{
+  "projects": [
+    {
+    "id": "leather-parfum",
+    "title": "Leather Parfum",
+    "order": 10,
+    "year": 2024,
+    "visible": true,
+    "tags": ["E-commerce", "Shopify", "Branding"],
+    "description": "Multi-brand e-commerce ecosystem for a luxury leather goods and perfumery house. Shopify-based platform serving Czech, Vietnamese, and English-speaking markets with B2C storefront and B2B wholesale portal. Strategic vision expanded to Inditex-style holding structure with multiple style-based sub-brands.",
+    "media": "https://picsum.photos/seed/lp01/1400/900",
+    "thumb": "https://picsum.photos/seed/lp01/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/lp-g1/1400/900",
+      "https://picsum.photos/seed/lp-g2/1000/1400",
+      "https://picsum.photos/seed/lp-g3/1400/700"
+    ],
+    "related": ["umprum-type", "ofst"]
+  },
+  {
+    "id": "umprum-type",
+    "title": "UMPRUM Type",
+    "order": 20,
+    "year": 2024,
+    "visible": true,
+    "tags": ["Typography", "Web", "CMS"],
+    "description": "Student-run type foundry website. Single-page application with JSON-driven content, Decap CMS, massive typography, randomized warm palettes, spring-physics hover animations. Plain HTML/CSS/JS on Netlify.",
+    "media": "https://picsum.photos/seed/ut02/1400/900",
+    "thumb": "https://picsum.photos/seed/ut02/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/ut-g1/1400/900",
+      "https://picsum.photos/seed/ut-g2/800/1200"
+    ],
+    "related": ["leather-parfum", "typeface-01"]
+  },
+  {
+    "id": "ofst",
+    "title": "OFST Studio",
+    "order": 30,
+    "year": 2025,
+    "visible": true,
+    "tags": ["Identity", "Web", "Astro"],
+    "description": "Studio identity and website for OFST — headless CMS and premium web studio based in Prague. Astro production build, three-tier service model, audit-as-lead-magnet funnel.",
+    "media": "https://picsum.photos/seed/of03/1400/900",
+    "thumb": "https://picsum.photos/seed/of03/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/of-g1/1400/1000"
+    ],
+    "related": ["leather-parfum"]
+  },
+  {
+    "id": "safarik",
+    "title": "Šafařík Archive",
+    "order": 40,
+    "year": 2024,
+    "visible": true,
+    "tags": ["Research", "Typography", "Archive"],
+    "description": "Historical Cyrillic typography research archive. Digitization and cataloguing of specimens from the Šafařík collection. Ongoing academic work at UMPRUM.",
+    "media": "https://picsum.photos/seed/sf04/1400/900",
+    "thumb": "https://picsum.photos/seed/sf04/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/sf-g1/1400/900",
+      "https://picsum.photos/seed/sf-g2/900/1300",
+      "https://picsum.photos/seed/sf-g3/1400/600",
+      "https://picsum.photos/seed/sf-g4/1400/900"
+    ],
+    "related": ["umprum-type", "typeface-01"]
+  },
+  {
+    "id": "lees-tea",
+    "title": "Lee's Tea",
+    "order": 50,
+    "year": 2024,
+    "visible": true,
+    "tags": ["Web", "Hospitality"],
+    "description": "Website for a tea house in Prague. Clean, warm, functional. Second site for the owner's new coffee shop is in development.",
+    "media": "https://picsum.photos/seed/lt05/1400/900",
+    "thumb": "https://picsum.photos/seed/lt05/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/lt-g1/1400/900",
+      "https://picsum.photos/seed/lt-g2/1400/1000"
+    ],
+    "related": ["ofst"]
+  },
+  {
+    "id": "typeface-01",
+    "title": "Typeface Specimen",
+    "order": 60,
+    "year": 2023,
+    "visible": true,
+    "tags": ["Type Design", "Print", "Glyphs"],
+    "description": "Original typeface designed in Glyphs. Variable weight axis, Cyrillic and Latin character sets. Specimen booklet printed on Risograph.",
+    "media": "https://picsum.photos/seed/tf06/1400/900",
+    "thumb": "https://picsum.photos/seed/tf06/800/540",
+    "gallery": [
+      "https://picsum.photos/seed/tf-g1/1400/900",
+      "https://picsum.photos/seed/tf-g2/1000/1400",
+      "https://picsum.photos/seed/tf-g3/1400/800"
+    ],
+    "related": ["umprum-type", "safarik"]
+  }
+  ]
+}

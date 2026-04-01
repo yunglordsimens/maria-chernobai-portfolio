@@ -1,0 +1,64 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/media"
+public_folder: "/media"
+
+collections:
+  - name: "content"
+    label: "Content"
+    files:
+      # ── ПРОЕКТЫ ──
+      - name: "projects"
+        label: "Projects"
+        file: "public/content/projects.json"
+        format: "json"
+        fields:
+          - name: "projects"
+            label: "Projects"
+            label_singular: "Project"
+            widget: "list"
+            summary: "{{fields.title}} (order: {{fields.order}})"
+            fields:
+              - { name: "id", label: "ID (slug)", widget: "string", hint: "URL-safe, lowercase, no spaces. e.g. leather-parfum" }
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "order", label: "Order", widget: "number", default: 50, value_type: "int", min: 1, max: 999, hint: "Lower = higher on page. Use 10, 20, 30... to leave gaps for reordering." }
+              - { name: "year", label: "Year", widget: "number", value_type: "int", min: 2020, max: 2030 }
+              - { name: "visible", label: "Visible", widget: "boolean", default: true, hint: "Hide without deleting" }
+              - name: "tags"
+                label: "Tags"
+                widget: "list"
+                field: { name: "tag", label: "Tag", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "media", label: "Hero image", widget: "image", hint: "Main project image. WebP, 1400px wide max." }
+              - { name: "thumb", label: "Thumbnail", widget: "image", hint: "Grid card image. WebP, 800px wide max." }
+              - name: "gallery"
+                label: "Gallery"
+                widget: "list"
+                required: false
+                field: { name: "image", label: "Image", widget: "image" }
+              - name: "related"
+                label: "Related project IDs"
+                widget: "list"
+                required: false
+                field: { name: "id", label: "Project ID", widget: "string" }
+
+      # ── О СЕБЕ / КОНТАКТЫ ──
+      - name: "about"
+        label: "About & Contact"
+        file: "public/content/about.json"
+        format: "json"
+        fields:
+          - { name: "name", label: "Name", widget: "string" }
+          - { name: "role", label: "Role / Tagline", widget: "string" }
+          - { name: "location", label: "Location", widget: "string" }
+          - { name: "email", label: "Email", widget: "string" }
+          - { name: "instagram", label: "Instagram", widget: "string" }
+          - { name: "github", label: "GitHub", widget: "string" }
+          - { name: "education", label: "Education", widget: "text" }
+          - { name: "practice", label: "Practice", widget: "text" }
+          - { name: "services", label: "Services", widget: "text" }
+          - { name: "languages", label: "Languages", widget: "string" }
+          - { name: "modeling", label: "Modeling", widget: "string", required: false }
+          - { name: "available", label: "Availability", widget: "string" }
