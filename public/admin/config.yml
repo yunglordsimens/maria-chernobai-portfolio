@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: your-username/maria-chernobai-portfolio # твой репо
+  repo: your-username/maria-chernobai-portfoli
   branch: main
-  base_url: https://api.netlify.com # Оставляем для обработки логина
+  base_url: https://netlify-cms-oauth-provider-iota.vercel.app
   auth_endpoint: /auth
 
 media_folder: "public/media"
