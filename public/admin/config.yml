@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: your-username/maria-chernobai-portfolio # твой репо
   branch: main
+  base_url: https://api.netlify.com # Оставляем для обработки логина
+  auth_endpoint: /auth
 
 media_folder: "public/media"
 public_folder: "/media"
