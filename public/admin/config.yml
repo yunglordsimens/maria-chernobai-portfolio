@@ -2,8 +2,8 @@ backend:
   name: github
   repo: yunglordsimens/maria-chernobai-portfolio
   branch: main
-  base_url: https://netlify-cms-github-oauth-provider-iota.vercel.app
-  auth_endpoint: /auth
+  base_url: https://maria-chernobai-portfolio.vercel.app
+  auth_endpoint: api/auth
 
 media_folder: "public/media"
 public_folder: "/media"
