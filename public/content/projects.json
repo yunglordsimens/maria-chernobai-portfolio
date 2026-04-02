@@ -4,11 +4,7 @@
       "media": "/media/preview_login_main_guide.gif",
       "order": 50,
       "visible": true,
-      "gallery": [
-        "/media/preview_login.png",
-        "/media/preview_404.gif",
-        "/media/preview_guide.png"
-      ],
+      "gallery": [],
       "thumb": "/media/preview_login_main_guide.gif",
       "title": "MASO.CORP // INDUSTRIAL SUPPLY",
       "id": "maso-corp",
