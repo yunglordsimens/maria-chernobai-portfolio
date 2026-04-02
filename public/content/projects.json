@@ -115,7 +115,7 @@
         "Typography",
         "Archive"
       ],
-      "id": "safarik",
+      "id": "glagolitische-fragmente",
       "thumb_gif": "",
       "description": "# Glagolitische Fragmente\n\nA web-based digitalization and typographic interpretation of the historical book \"Glagolitische Fragmente\" (1857) by Karl Adolph Constantin Höfler and Paul Joseph Šafařík.\n\nDeveloped as part of the **Clausura (Winter Semester)** project at the **[AAAD / UMPRUM](https://www.umprum.cz/) Studio of Typography**.\n\n**[View Live Website](https://yunglordsimens.github.io/haase/)**\n\n---\n\n![Website Preview](preview.gif)\n\n---\n\n## About the Project\n\nThis project explores the digital translation of historical Glagolitic scripts and texts. It combines modern web technologies with custom type design to reimagine the original manuscript for a digital context.\n\n**Date:** January 2023\n\n## Typography\n\nThe website features custom typefaces designed specifically for this digitalization project, focusing on the historical accuracy and aesthetic of the Glagolitic script within a contemporary layout.\n\n## Credits\n\n| Role | Name |\n| :--- | :--- |\n| **Art Direction** | Maria Chernobay |\n| **Development** | Oleksandr Hohulia |\n| **Custom Fonts** | Maria Chernobay, Anna Ivakhno, Viktoria Naumuk |\n\n## Tech Stack\n\n* HTML5 / CSS3\n* JavaScript\n* GitHub Pages\n",
       "year": 2024,
