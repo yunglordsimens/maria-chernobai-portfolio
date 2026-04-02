@@ -1,34 +1,20 @@
 {
   "projects": [
     {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/lp01/1400/900",
-      "sidebar_animated": false,
-      "embed_url": "",
-      "project_url": "",
-      "related": [
-        "umprum-type",
-        "ofst"
-      ],
-      "order": 10,
-      "has_audio": false,
+      "media": "/media/preview_login_main_guide.gif",
+      "order": 50,
       "visible": true,
-      "thumb_video": "",
-      "gallery": [],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "/media/bored_animation.gif",
-      "title": "Leather Parfum",
-      "tags": [
-        "E-commerce",
-        "Shopify",
-        "Branding"
+      "gallery": [
+        "/media/preview_login_main_guide.gif",
+        "/media/preview_login.png",
+        "/media/preview_404.gif",
+        "/media/preview_guide.png"
       ],
-      "id": "leather-parfum",
-      "thumb_gif": "",
-      "description": "Multi-brand e-commerce ecosystem for a luxury leather goods and perfumery house. Shopify-based platform serving Czech, Vietnamese, and English-speaking markets with B2C storefront and B2B wholesale portal. Strategic vision expanded to Inditex-style holding structure with multiple style-based sub-brands.",
-      "year": 2024,
-      "project_url_label": "View live"
+      "thumb": "/media/preview_login_main_guide.gif",
+      "title": "MASO.CORP // INDUSTRIAL SUPPLY",
+      "id": "maso-corp",
+      "description": "# MASO.CORP // INDUSTRIAL SUPPLY\n\nA speculative design project exploring the aesthetics of corporate brutalism applied to a fictional high-tech meat processing conglomerate.\n\nBeyond the visual facade, this project features a **fully functional Print Production Tool** (Offset Imposition & Flatplan Renderer), demonstrating the fusion of graphic design rules with frontend logic.\n\n🔗 **[View Live Terminal](https://yunglordsimens.github.io/maso.corp/)**\n🔗 **[Print Production Tool direct link](https://yunglordsimens.github.io/maso.corp/guide)**\n\n---\n\n### / SYSTEM PREVIEW\n\n> **System Access & Dashboard.** Simulating a restricted B2B environment with IP logging and strict validation.\n<br>\n<img src=\"./preview_login_main_guide.gif\" width=\"100%\" alt=\"System Interaction\" style=\"border-radius: 4px; border: 1px solid #333;\">\n\n---\n\n### / CONCEPT & NARRATIVE\n\nThe project imagines a near-future interface for **MASO.CORP**, a ubiquitous meat supply monopoly. The design language rejects consumer-friendly warmth in favor of \"Anti-Design\" and \"Raw Industrialism.\"\n\n**Visual & Technical Pillars:**\n* **Aesthetic:** Corporate Brutalism. High contrast, monospace typography (`JetBrains Mono`), and raw layout grids.\n* **Design Engineering:** The system includes a hidden **\"Technical Guide\" module** — a custom-coded tool that automatically renders print impositions and flatplans using `Chart.js`, simulating real-world offset printing workflows.\n* **Atmosphere:** Dystopian B2B. Interface elements simulate system logs, stock tickers, and unauthorized access warnings.\n\n---\n\n### / INTERFACE MODULES\n\nThe prototype consists of several interconnected system nodes:\n\n<table style=\"border: none; width: 100%;\">\n  <tr>\n    <td width=\"50%\" valign=\"top\">\n      <h4 align=\"center\">B2B LOGIN GATE</h4>\n      <p align=\"center\" style=\"font-size: 11px; font-family: monospace;\">Simulated security protocols & IP tracking.</p>\n      <img src=\"./preview_login.png\" width=\"100%\" style=\"border: 1px solid #ccc;\">\n    </td>\n    <td width=\"50%\" valign=\"top\">\n      <h4 align=\"center\">ERROR HANDLING (404)</h4>\n      <p align=\"center\" style=\"font-size: 11px; font-family: monospace;\">CRT Scanline effects & Noise overlays.</p>\n      <img src=\"./preview_404.gif\" width=\"100%\" style=\"border: 1px solid #ccc;\">\n    </td>\n  </tr>\n  <tr>\n    <td colspan=\"2\" valign=\"top\">\n      <h4 align=\"center\">TECHNICAL STYLEGUIDE</h4>\n      <p align=\"center\" style=\"font-size: 11px; font-family: monospace;\">Automated flatplan renderer & imposition viewer for print materials.</p>\n      <img src=\"./preview_guide.png\" width=\"100%\" style=\"border: 1px solid #ccc;\">\n    </td>\n  </tr>\n</table>\n\n### / TECH IMPLEMENTATION\n\nBuilt as a lightweight, performance-focused static site using utility-first principles.\n\n| Technology | Usage |\n| :--- | :--- |\n| **HTML5** | Semantic structure for dashboard layouts. |\n| **Tailwind CSS** | Utility-first styling for rapid UI prototyping and dark mode handling. |\n| **Vanilla JS** | Logic for interactive cursors, image reveals, and style toggles. |\n| **Chart.js** | Data visualization for the technical guide dashboard. |\n\n## / CREDITS\n\n**Maria Chernobay** — Art Direction & Frontend Development.\n*Concept Work, 2025.*",
+      "year": 2025
     },
     {
       "thumb_type": "image",
@@ -89,6 +75,36 @@
       "thumb_gif": "",
       "description": "Studio identity and website for OFST — headless CMS and premium web studio based in Prague. Astro production build, three-tier service model, audit-as-lead-magnet funnel.",
       "year": 2025,
+      "project_url_label": "View live"
+    },
+    {
+      "thumb_type": "image",
+      "media": "https://picsum.photos/seed/lp01/1400/900",
+      "sidebar_animated": false,
+      "embed_url": "",
+      "project_url": "",
+      "related": [
+        "umprum-type",
+        "ofst"
+      ],
+      "order": 10,
+      "has_audio": false,
+      "visible": true,
+      "thumb_video": "",
+      "gallery": [],
+      "sidebar_thumb": "",
+      "media_type": "image",
+      "thumb": "/media/bored_animation.gif",
+      "title": "Leather Parfum",
+      "tags": [
+        "E-commerce",
+        "Shopify",
+        "Branding"
+      ],
+      "id": "leather-parfum",
+      "thumb_gif": "",
+      "description": "Multi-brand e-commerce ecosystem for a luxury leather goods and perfumery house. Shopify-based platform serving Czech, Vietnamese, and English-speaking markets with B2C storefront and B2B wholesale portal. Strategic vision expanded to Inditex-style holding structure with multiple style-based sub-brands.",
+      "year": 2024,
       "project_url_label": "View live"
     },
     {
