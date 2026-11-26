@@ -136,6 +136,7 @@ collections:
           - { name: "email", label: "Email", widget: "string" }
           - { name: "instagram", label: "Instagram", widget: "string" }
           - { name: "github", label: "GitHub", widget: "string" }
+          - { name: "studio", label: "Studio", widget: "string", required: false }
           - { name: "education", label: "Education", widget: "text" }
           - { name: "practice", label: "Practice", widget: "text" }
           - { name: "services", label: "Services", widget: "text" }

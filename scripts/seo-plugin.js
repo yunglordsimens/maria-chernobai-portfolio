@@ -8,7 +8,7 @@
 import fs from 'node:fs';
 
 const SITE = 'https://maria-chernobai-portfolio.vercel.app';
-const STUDIO = { '@type': 'Organization', '@id': 'https://ofststudio.com/#studio', name: 'OFST Studio', url: 'https://ofststudio.com/' };
+const STUDIO = { '@type': 'Organization', '@id': 'https://5tmnsu.com/#studio', name: '5TMNSU', url: 'https://5tmnsu.com/' };
 
 // Kept in sync with scripts/gen-apps.mjs (FOUNDER) in the offset repo.
 const ALTERNATE_NAMES = [
@@ -62,7 +62,7 @@ export default function portfolioSeo() {
           id: p.id,
           title: p.title,
           text: paragraphs(p.description, p.title),
-          links: projectLinks(p.description),
+          links: [...new Set([p.project_url, ...projectLinks(p.description)].filter(Boolean))],
         }));
 
       const description = shorten(`${about.role}, ${about.location}. ${about.practice}`, 158);
@@ -101,7 +101,7 @@ export default function portfolioSeo() {
       const list = projects.map((p) => `<li><h3>${esc(p.title)}</h3>${p.text.map((t) => `<p>${esc(t)}</p>`).join('')}${p.links.map((l) => `<p><a href="${esc(l)}">${esc(l)}</a></p>`).join('')}</li>`).join('');
       const facts = ['practice', 'services', 'education', 'languages', 'modeling', 'available']
         .filter((k) => about[k]).map((k) => `<p>${esc(about[k])}</p>`).join('');
-      const noscript = `<noscript><main><h1>${esc(about.name)}</h1><p>${esc(about.role)} — ${esc(about.location)}</p>${facts}<h2>Projects</h2><ul>${list}</ul><p>Instagram <a href="https://www.instagram.com/4rnbay/">${esc(about.instagram)}</a> · <a href="https://github.com/yunglordsimens">GitHub</a> · <a href="https://ofststudio.com/">OFST Studio</a></p></main></noscript>`;
+      const noscript = `<noscript><main><h1>${esc(about.name)}</h1><p>${esc(about.role)} — ${esc(about.location)}</p>${facts}<h2>Projects</h2><ul>${list}</ul><p>Instagram <a href="https://www.instagram.com/4rnbay/">${esc(about.instagram)}</a> · <a href="https://github.com/yunglordsimens">GitHub</a> · <a href="https://5tmnsu.com/">5TMNSU</a></p></main></noscript>`;
 
       return html
         .replace(/<meta name="description" content="[^"]*" \/>/, `<meta name="description" content="${esc(description)}" />`)
