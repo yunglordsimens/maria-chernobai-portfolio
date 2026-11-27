@@ -12,7 +12,7 @@
         "CMS",
         "Web"
       ],
-      "description": "Type archive and studio platform for the Studio of Typography at UMPRUM, Prague.\nProblem: 50 student typefaces by 25 designers, studio projects, a journal, and a 534-book library lived across scattered folders without a way for the studio to publish updates alone.\nResult: Built a live Astro 6 and React 19 system with interactive dot/wave canvas typography, read-only glyph-accurate specimens, custom-themed Decap CMS, and a Google Sheets library (NAKI III Ministry of Culture project).",
+      "description": "Type archive and studio platform for the Studio of Typography at UMPRUM, Prague.\nProblem: 50 student typefaces by 25 designers, studio projects, a journal, and a library of 500+ books lived across scattered folders without a way for the studio to publish updates alone.\nResult: Built a live Astro 6 and React 19 system with interactive dot/wave canvas typography, read-only glyph-accurate specimens, custom-themed Decap CMS, and a Google Sheets library (NAKI III Ministry of Culture project).",
       "media_type": "video",
       "media": "/media/umprum-type-hero.mp4",
       "embed_url": "",
@@ -118,7 +118,7 @@
         "Archive",
         "Interactive"
       ],
-      "description": "Interactive 3D monument and digital archive transforming a 4-year physical collection of cigarette packs into an act of letting go.\nProblem: Document a physical cross sculpture and hundreds of memory-anchor objects online without flattening the spatial structure into a plain photo gallery.\nResult: Built a React and CSS 3D spatial viewer with pan, zoom, free-angle rotation, and layer toggles, paired with a full visual inventory list and written manifest.",
+      "description": "Interactive 3D monument and digital archive transforming a years-long physical collection of cigarette packs into an act of letting go.\nProblem: Document a physical cross sculpture and its memory-anchor objects online without flattening the spatial structure into a plain photo gallery.\nResult: Built a React and CSS 3D spatial viewer with pan, zoom, free-angle rotation, and layer toggles, paired with a full visual inventory list and written manifest.",
       "media_type": "video",
       "media": "/media/cigarette-archive-hero.mp4",
       "embed_url": "",
@@ -153,7 +153,7 @@
         "Research",
         "Web"
       ],
-      "description": "Web digitalization and custom typographic edition of the 1857 book Glagolitische Fragmente by K. A. C. Höfler and P. J. Šafařík (UMPRUM Studio of Typography).\nProblem: Historical Glagolitic manuscripts and 19th-century print scans are hard to inspect and compare alongside reconstructed letterforms on screen.\nResult: Directed the editorial web edition and co-designed custom Glagolitic typefaces, pairing an interactive multi-page archive viewer with moveable zoom inspection across 73 historical pages.",
+      "description": "Web digitalization and custom typographic edition of the 1857 book Glagolitische Fragmente by K. A. C. Höfler and P. J. Šafařík (UMPRUM Studio of Typography).\nProblem: Historical Glagolitic manuscripts and 19th-century print scans are hard to inspect and compare alongside reconstructed letterforms on screen.\nResult: Art directed the web edition and co-designed its Cyrillic typeface with Anna Ivakhno (Glagolitic typeface: Viktoria Naumuk, code: Oleksandr Hohulia). Interactive multi-page archive viewer with moveable zoom inspection across 73 historical pages.",
       "media_type": "video",
       "media": "/media/glagolitische-fragmente-hero.mp4",
       "embed_url": "",
@@ -162,7 +162,7 @@
       "project_url_label": "View live",
       "thumb_type": "video",
       "thumb": "/media/glagolitische-fragmente-thumb.webp",
-      "thumb_video": "/media/glagolitische-fragmente-thumb.mp4",
+      "thumb_video": "/media/glagolitische-fragmente-thumb-archive.mp4",
       "thumb_gif": "",
       "sidebar_animated": true,
       "sidebar_thumb": "/media/glagolitische-fragmente-sidebar.mp4",
@@ -187,7 +187,7 @@
         "CMS",
         "Web"
       ],
-      "description": "Production-scale website architecture redesign for Kharkiv National University of Radio Electronics (MSc Computer Science thesis proposal).\nProblem: Legacy university WordPress loaded in 3 to 6 seconds with fragmented navigation across faculties, specialties, and class schedules.\nResult: Engineered 35+ responsive UA/EN pages in Astro 5 and TypeScript with Headless WordPress REST integration, CIST schedule API, Cmd+K global search, and a live technical audit dashboard (/audit) under 10 KB JS per page.",
+      "description": "Production-scale website architecture redesign for Kharkiv National University of Radio Electronics (proposal by a 2024 Computer Science graduate).\nProblem: Legacy university WordPress loaded in 3 to 6 seconds with fragmented navigation across faculties, specialties, and class schedules.\nResult: Engineered 35+ responsive UA/EN pages in Astro 5 and TypeScript with Headless WordPress REST integration, CIST schedule API, Cmd+K global search, and a live technical audit dashboard (/audit) under 10 KB JS per page.",
       "media_type": "video",
       "media": "/media/khnure-ecosystem-hero.mp4",
       "embed_url": "",
