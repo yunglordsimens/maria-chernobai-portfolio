@@ -1,199 +1,214 @@
 {
   "projects": [
     {
-      "media": "/media/preview_login_main_guide.gif",
-      "order": 50,
-      "visible": true,
-      "gallery": [],
-      "thumb": "/media/preview_login_main_guide.gif",
-      "title": "MASO.CORP // INDUSTRIAL SUPPLY",
-      "id": "maso-corp",
-      "description": "// A speculative design project exploring the aesthetics of corporate brutalism applied to a fictional high-tech meat processing conglomerate.\n\n// Beyond the visual facade, this project features a fully functional Print Production Tool (Offset Imposition & Flatplan Renderer), demonstrating the fusion of graphic design rules with frontend logic.\n\n// https://yunglordsimens.github.io/maso.corp/\n// https://yunglordsimens.github.io/maso.corp/guide\n\n// The project imagines a near-future interface for MASO.CORP, a ubiquitous meat supply monopoly. The design language rejects consumer-friendly warmth in favor of \"Anti-Design\" and \"Raw Industrialism.\"\n\n// Corporate Brutalism. High contrast, monospace typography JetBrains Mono, and raw layout grids.\n// The system includes a hidden \"Technical Guide\" module — a custom-coded tool that automatically renders print impositions and flatplans using Chart.js, simulating real-world offset printing workflows.\n// Dystopian B2B. Interface elements simulate system logs, stock tickers, and unauthorized access warnings.\n\n// The prototype consists of several interconnected system nodes\n\n// Built as a lightweight, performance-focused static site using utility-first principles.\n\n// Art Direction & Frontend Development.\n",
-      "year": 2025
-    },
-    {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/ut02/1400/900",
-      "sidebar_animated": false,
-      "embed_url": "",
-      "project_url": "",
-      "related": [
-        "leather-parfum",
-        "typeface-01"
-      ],
-      "order": 20,
-      "has_audio": false,
-      "visible": true,
-      "thumb_video": "",
-      "gallery": [],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "https://picsum.photos/seed/ut02/800/540",
-      "title": "UMPRUM Type",
-      "tags": [
-        "Typography",
-        "Web",
-        "CMS"
-      ],
       "id": "umprum-type",
-      "thumb_gif": "",
-      "description": "Student-run type foundry website. Single-page application with JSON-driven content, Decap CMS, massive typography, randomized warm palettes, spring-physics hover animations. Plain HTML/CSS/JS on Netlify.",
-      "year": 2024,
-      "project_url_label": "View live"
-    },
-    {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/of03/1400/900",
-      "sidebar_animated": false,
-      "embed_url": "",
-      "project_url": "",
-      "related": [
-        "leather-parfum"
-      ],
-      "order": 30,
-      "has_audio": false,
-      "visible": true,
-      "thumb_video": "",
-      "gallery": [
-        "/media/bored_animation.gif"
-      ],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "https://picsum.photos/seed/of03/800/540",
-      "title": "OFST Studio",
-      "tags": [
-        "Identity",
-        "Web",
-        "Astro"
-      ],
-      "id": "ofst",
-      "thumb_gif": "",
-      "description": "Studio identity and website for OFST — headless CMS and premium web studio based in Prague. Astro production build, three-tier service model, audit-as-lead-magnet funnel.",
-      "year": 2025,
-      "project_url_label": "View live"
-    },
-    {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/lp01/1400/900",
-      "sidebar_animated": false,
-      "embed_url": "",
-      "project_url": "",
-      "related": [
-        "umprum-type",
-        "ofst"
-      ],
+      "title": "UMPRUM Type",
       "order": 10,
-      "has_audio": false,
+      "year": 2026,
       "visible": true,
-      "thumb_video": "",
-      "gallery": [],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "/media/bored_animation.gif",
-      "title": "Leather Parfum",
       "tags": [
-        "E-commerce",
-        "Shopify",
-        "Branding"
-      ],
-      "id": "leather-parfum",
-      "thumb_gif": "",
-      "description": "Multi-brand e-commerce ecosystem for a luxury leather goods and perfumery house. Shopify-based platform serving Czech, Vietnamese, and English-speaking markets with B2C storefront and B2B wholesale portal. Strategic vision expanded to Inditex-style holding structure with multiple style-based sub-brands.",
-      "year": 2024,
-      "project_url_label": "View live"
-    },
-    {
-      "thumb_type": "image",
-      "media": "/media/preview.gif",
-      "sidebar_animated": false,
-      "embed_url": "",
-      "project_url": "",
-      "related": [
-        "umprum-type",
-        "typeface-01"
-      ],
-      "order": 40,
-      "has_audio": false,
-      "visible": true,
-      "thumb_video": "",
-      "gallery": [],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "/media/preview.gif",
-      "title": "Glagolitische Fragmente",
-      "tags": [
-        "Research",
         "Typography",
-        "Archive"
+        "Archive",
+        "CMS",
+        "Web"
       ],
-      "id": "glagolitische-fragmente",
-      "thumb_gif": "",
-      "description": "# Glagolitische Fragmente\n\nA web-based digitalization and typographic interpretation of the historical book \"Glagolitische Fragmente\" (1857) by Karl Adolph Constantin Höfler and Paul Joseph Šafařík.\n\nDeveloped as part of the **Clausura (Winter Semester)** project at the **[AAAD / UMPRUM](https://www.umprum.cz/) Studio of Typography**.\n\n**[View Live Website](https://yunglordsimens.github.io/haase/)**\n\n---\n\n![Website Preview](preview.gif)\n\n---\n\n## About the Project\n\nThis project explores the digital translation of historical Glagolitic scripts and texts. It combines modern web technologies with custom type design to reimagine the original manuscript for a digital context.\n\n**Date:** January 2023\n\n## Typography\n\nThe website features custom typefaces designed specifically for this digitalization project, focusing on the historical accuracy and aesthetic of the Glagolitic script within a contemporary layout.\n\n## Credits\n\n| Role | Name |\n| :--- | :--- |\n| **Art Direction** | Maria Chernobay |\n| **Development** | Oleksandr Hohulia |\n| **Custom Fonts** | Maria Chernobay, Anna Ivakhno, Viktoria Naumuk |\n\n## Tech Stack\n\n* HTML5 / CSS3\n* JavaScript\n* GitHub Pages\n",
-      "year": 2024,
-      "project_url_label": "GitHub"
-    },
-    {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/lt05/1400/900",
-      "sidebar_animated": false,
+      "description": "Type archive and studio platform for the Studio of Typography at UMPRUM, Prague.\nProblem: 50 student typefaces by 25 designers, studio projects, a journal, and a library of 500+ books lived across scattered folders without a way for the studio to publish updates alone.\nResult: Built a live Astro 6 and React 19 system with interactive dot/wave canvas typography, read-only glyph-accurate specimens, custom-themed Decap CMS, and a Google Sheets library (NAKI III Ministry of Culture project).",
+      "media_type": "video",
+      "media": "/media/umprum-type-hero.mp4",
       "embed_url": "",
-      "project_url": "",
-      "related": [
-        "ofst"
-      ],
-      "order": 50,
       "has_audio": false,
-      "visible": true,
-      "thumb_video": "",
-      "gallery": [
-        "/media/bored_animation.gif",
-        "/media/bored_animation.gif"
-      ],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "https://picsum.photos/seed/lt05/800/540",
-      "title": "Lee's Tea",
-      "tags": [
-        "Web",
-        "Hospitality"
-      ],
-      "id": "lees-tea",
+      "project_url": "https://typoumprum.cz",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/umprum-type-thumb.webp",
+      "thumb_video": "/media/umprum-type-thumb.mp4",
       "thumb_gif": "",
-      "description": "Website for a tea house in Prague. Clean, warm, functional. Second site for the owner's new coffee shop is in development.",
-      "year": 2024,
-      "project_url_label": "View live"
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/umprum-type-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/umprum-type-gallery-1.webp", "type": "image" },
+        { "url": "/media/umprum-type-gallery-2.webp", "type": "image" },
+        { "url": "/media/umprum-type-gallery-3.webp", "type": "image" },
+        { "url": "/media/umprum-type-gallery-4.webp", "type": "image" }
+      ],
+      "related": [
+        "glagolitische-fragmente",
+        "khnure-ecosystem"
+      ]
     },
     {
-      "thumb_type": "image",
-      "media": "https://picsum.photos/seed/tf06/1400/900",
-      "sidebar_animated": false,
+      "id": "evro661",
+      "title": "6000ovecek × EVRO661",
+      "order": 20,
+      "year": 2026,
+      "visible": true,
+      "tags": [
+        "Event",
+        "3D",
+        "Interactive",
+        "Web"
+      ],
+      "description": "Charity festival website for 6000ovecek × EVRO661 at Strahov Stadium, Prague, funding FPV drones for Ukraine.\nProblem: A two-day underground music and visual art event with 23 artists needed a fast trilingual site that felt raw and game-like instead of a standard ticket page.\nResult: Built a zero-build Three.js barn-door 3D entrance, torn-paper artist lineup panels with photo/video previews, canvas football mini-game, and full UA/EN/CZ language switching linked to GoOut and Donio.",
+      "media_type": "video",
+      "media": "/media/evro661-hero.mp4",
       "embed_url": "",
-      "project_url": "",
+      "has_audio": false,
+      "project_url": "https://evro661.vercel.app",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/evro661-thumb.webp",
+      "thumb_video": "/media/evro661-thumb.mp4",
+      "thumb_gif": "",
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/evro661-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/evro661-gallery-1.webp", "type": "image" },
+        { "url": "/media/evro661-gallery-2.webp", "type": "image" },
+        { "url": "/media/evro661-gallery-3.webp", "type": "image" }
+      ],
+      "related": [
+        "maso-corp",
+        "cigarette-archive"
+      ]
+    },
+    {
+      "id": "maso-corp",
+      "title": "MASO.CORP",
+      "order": 30,
+      "year": 2025,
+      "visible": true,
+      "tags": [
+        "Brutalism",
+        "B2B",
+        "Print Tool",
+        "Web"
+      ],
+      "description": "Speculative B2B supply portal and working offset print production tool for a fictional industrial meat conglomerate.\nProblem: Combine raw anti-design corporate brutalism with a real graphic design utility instead of a static visual concept.\nResult: Shipped a lightweight static web system with simulated B2B login gate, custom CRT 404 screen, invert mode, and an automated Flatplan and Imposition Renderer built with Vanilla JS and Chart.js (/guide).",
+      "media_type": "video",
+      "media": "/media/maso-corp-hero.mp4",
+      "embed_url": "",
+      "has_audio": false,
+      "project_url": "https://yunglordsimens.github.io/maso.corp/",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/maso-corp-thumb.webp",
+      "thumb_video": "/media/maso-corp-thumb.mp4",
+      "thumb_gif": "",
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/maso-corp-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/maso-corp-gallery-1.webp", "type": "image" },
+        { "url": "/media/maso-corp-gallery-2.webp", "type": "image" },
+        { "url": "/media/maso-corp-gallery-3.mp4", "type": "video" }
+      ],
+      "related": [
+        "evro661",
+        "khnure-ecosystem"
+      ]
+    },
+    {
+      "id": "cigarette-archive",
+      "title": "Cigarette Archive",
+      "order": 40,
+      "year": 2026,
+      "visible": true,
+      "tags": [
+        "Art",
+        "3D",
+        "Archive",
+        "Interactive"
+      ],
+      "description": "Interactive 3D monument and digital archive transforming a years-long physical collection of cigarette packs into an act of letting go.\nProblem: Document a physical cross sculpture and its memory-anchor objects online without flattening the spatial structure into a plain photo gallery.\nResult: Built a React and CSS 3D spatial viewer with pan, zoom, free-angle rotation, and layer toggles, paired with a full visual inventory list and written manifest.",
+      "media_type": "video",
+      "media": "/media/cigarette-archive-hero.mp4",
+      "embed_url": "",
+      "has_audio": false,
+      "project_url": "https://yunglordsimens.github.io/cigarette-archive/",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/cigarette-archive-thumb.webp",
+      "thumb_video": "/media/cigarette-archive-thumb.mp4",
+      "thumb_gif": "",
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/cigarette-archive-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/cigarette-archive-gallery-1.webp", "type": "image" },
+        { "url": "/media/cigarette-archive-gallery-2.webp", "type": "image" },
+        { "url": "/media/cigarette-archive-gallery-3.webp", "type": "image" }
+      ],
+      "related": [
+        "glagolitische-fragmente",
+        "evro661"
+      ]
+    },
+    {
+      "id": "glagolitische-fragmente",
+      "title": "Glagolitische Fragmente",
+      "order": 50,
+      "year": 2024,
+      "visible": true,
+      "tags": [
+        "Typography",
+        "Archive",
+        "Research",
+        "Web"
+      ],
+      "description": "Web digitalization and custom typographic edition of the 1857 book Glagolitische Fragmente by K. A. C. Höfler and P. J. Šafařík (UMPRUM Studio of Typography).\nProblem: Historical Glagolitic manuscripts and 19th-century print scans are hard to inspect and compare alongside reconstructed letterforms on screen.\nResult: Art directed the web edition and co-designed its Cyrillic typeface with Anna Ivakhno (Glagolitic typeface: Viktoria Naumuk, code: Oleksandr Hohulia). Interactive multi-page archive viewer with moveable zoom inspection across 73 historical pages.",
+      "media_type": "video",
+      "media": "/media/glagolitische-fragmente-hero.mp4",
+      "embed_url": "",
+      "has_audio": false,
+      "project_url": "https://yunglordsimens.github.io/haase/",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/glagolitische-fragmente-thumb.webp",
+      "thumb_video": "/media/glagolitische-fragmente-thumb-archive.mp4",
+      "thumb_gif": "",
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/glagolitische-fragmente-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/glagolitische-fragmente-gallery-1.webp", "type": "image" },
+        { "url": "/media/glagolitische-fragmente-gallery-2.webp", "type": "image" }
+      ],
       "related": [
         "umprum-type",
-        "safarik"
-      ],
+        "cigarette-archive"
+      ]
+    },
+    {
+      "id": "khnure-ecosystem",
+      "title": "KhNURE Digital Ecosystem",
       "order": 60,
-      "has_audio": false,
+      "year": 2026,
       "visible": true,
-      "thumb_video": "",
-      "gallery": [
-        "/media/bored_animation.gif"
-      ],
-      "sidebar_thumb": "",
-      "media_type": "image",
-      "thumb": "https://picsum.photos/seed/tf06/800/540",
-      "title": "Typeface Specimen",
       "tags": [
-        "Type Design",
-        "Print",
-        "Glyphs"
+        "Systems",
+        "Astro",
+        "CMS",
+        "Web"
       ],
-      "id": "typeface-01",
+      "description": "Production-scale website architecture redesign for Kharkiv National University of Radio Electronics (proposal by a 2024 Computer Science graduate).\nProblem: Legacy university WordPress loaded in 3 to 6 seconds with fragmented navigation across faculties, specialties, and class schedules.\nResult: Engineered 35+ responsive UA/EN pages in Astro 5 and TypeScript with Headless WordPress REST integration, CIST schedule API, Cmd+K global search, and a live technical audit dashboard (/audit) under 10 KB JS per page.",
+      "media_type": "video",
+      "media": "/media/khnure-ecosystem-hero.mp4",
+      "embed_url": "",
+      "has_audio": false,
+      "project_url": "https://nure-site.vercel.app",
+      "project_url_label": "View live",
+      "thumb_type": "video",
+      "thumb": "/media/khnure-ecosystem-thumb.webp",
+      "thumb_video": "/media/khnure-ecosystem-thumb.mp4",
       "thumb_gif": "",
-      "description": "Original typeface designed in Glyphs. Variable weight axis, Cyrillic and Latin character sets. Specimen booklet printed on Risograph.",
-      "year": 2023,
-      "project_url_label": "GitHub"
+      "sidebar_animated": true,
+      "sidebar_thumb": "/media/khnure-ecosystem-sidebar.mp4",
+      "gallery": [
+        { "url": "/media/khnure-ecosystem-gallery-1.webp", "type": "image" },
+        { "url": "/media/khnure-ecosystem-gallery-2.webp", "type": "image" },
+        { "url": "/media/khnure-ecosystem-gallery-3.webp", "type": "image" }
+      ],
+      "related": [
+        "umprum-type",
+        "maso-corp"
+      ]
     }
   ]
 }

@@ -127,8 +127,14 @@ export default function App() {
 
   useEffect(() => applyTh(theme), [theme]);
 
-  const ALL_TAGS = useMemo(() => [...new Set(PROJECTS.flatMap((p) => p.tags))].sort(), [PROJECTS]);
-  const CONTACT_LINES = useMemo(() => ABOUT ? [ABOUT.email, ABOUT.instagram, ABOUT.github, ABOUT.location] : [], [ABOUT]);
+  const ALL_TAGS = useMemo(() => [...new Set(PROJECTS.flatMap((p) => p.tags || []))].sort(), [PROJECTS]);
+  const CONTACT_LINES = useMemo(() => ABOUT ? [
+    { label: ABOUT.email, href: `mailto:${ABOUT.email}` },
+    { label: ABOUT.instagram, href: `https://www.instagram.com/${String(ABOUT.instagram || "").replace(/^@/, "")}/` },
+    { label: ABOUT.github, href: `https://${String(ABOUT.github || "").replace(/^https?:\/\//, "")}` },
+    ...(ABOUT.studio ? [{ label: ABOUT.studio, href: `https://${String(ABOUT.studio).replace(/^https?:\/\//, "")}` }] : []),
+    { label: ABOUT.location, href: null },
+  ] : [], [ABOUT]);
 
   const project = PROJECTS.find((p) => p.id === activeId);
   const filtered = useMemo(() => {
@@ -339,8 +345,8 @@ function MediaPanel({ project, mediaUrl, zoomState, setZoomState, onClickCenter,
   const [scrubbing, setScrubbing] = useState(false);
 
   const mediaType = project?.media_type || "image";
-  const isEmbed = mediaType === "embed" && project?.embed_url;
-  const isVideo = mediaType === "video" || (mediaUrl && isVideoUrl(mediaUrl));
+  const isEmbed = mediaType === "embed" && project?.embed_url && (!mediaUrl || mediaUrl === project?.media);
+  const isVideo = mediaUrl ? isVideoUrl(mediaUrl) : mediaType === "video";
   const hasAudio = project?.has_audio;
 
   // Resume playback when mouse leaves
@@ -517,8 +523,8 @@ function MobileApp({
     else clickMedia();
   };
 
-  const isEmbed = project?.media_type === "embed" && project?.embed_url;
-  const isVideo = project?.media_type === "video" || (mediaUrl && isVideoUrl(mediaUrl));
+  const isEmbed = project?.media_type === "embed" && project?.embed_url && (!mediaUrl || mediaUrl === project?.media);
+  const isVideo = mediaUrl ? isVideoUrl(mediaUrl) : project?.media_type === "video";
 
   return (
     <div style={{ ...rootStyle, touchAction: "pan-y" }}>
@@ -616,7 +622,7 @@ function DescPanel({ project, related, onRelatedClick, onImgHover, onImgLeave, o
     <div key={project.id} style={{ padding: "20px 24px", height: "100%", overflowY: "auto", animation: "slideL 0.3s cubic-bezier(0.22,1,0.36,1) both" }}>
       <div style={{ maxWidth: isolated ? 600 : "none", margin: "0 auto" }}>
         <div style={{ marginBottom: 16 }}>{project.title}</div>
-        <div style={{ marginBottom: 20, lineHeight: 1.7 }}>{project.description}</div>
+        <div style={{ marginBottom: 20, lineHeight: 1.7, whiteSpace: "pre-line" }}>{project.description}</div>
 
         {/* Project link */}
         {project.project_url && (
@@ -717,7 +723,19 @@ function ContactPanel({ isolated, about, contactLines }) {
         <div style={{ marginBottom: 8, opacity: 0.4, letterSpacing: "0.04em" }}>Languages</div>
         <div style={{ marginBottom: 24 }}>{about.languages}</div>
         <div style={{ marginBottom: 8, opacity: 0.4, letterSpacing: "0.04em" }}>Contact</div>
-        <div style={{ lineHeight: 2 }}>{contactLines.map((l, i) => <div key={i}>{l}</div>)}</div>
+        <div style={{ lineHeight: 2 }}>
+          {contactLines.map((l, i) => (
+            <div key={i}>
+              {l.href ? (
+                <a href={l.href} target={l.href.startsWith("mailto:") ? undefined : "_blank"} rel={l.href.startsWith("mailto:") ? undefined : "noopener noreferrer"}
+                  onClick={(e) => e.stopPropagation()}
+                  style={{ color: "var(--fg)", textDecoration: "underline", textUnderlineOffset: 3, textDecorationThickness: 1 }}>
+                  {l.label}
+                </a>
+              ) : l.label}
+            </div>
+          ))}
+        </div>
         <div style={{ marginTop: 32, opacity: 0.4 }}>{about.modeling}</div>
         <div style={{ marginTop: 12, opacity: 0.4 }}>{about.available}</div>
       </div>
@@ -804,7 +822,7 @@ function GridCard({ p, onClick, i, full }) {
 
       {/* Animated video overlay */}
       {hasVideo && (
-        <video ref={videoRef} src={p.thumb_video} loop muted playsInline
+        <video ref={videoRef} src={p.thumb_video} loop muted playsInline preload="metadata"
           poster={p.thumb}
           style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover", display: "block" }} />
       )}
